@@ -8,9 +8,9 @@ on:
   pull_request:
     branches: [ main ]
   # 🔹 Scheduled trigger (UTC time)
-  schedule:
-    - cron: "30 12 * * *"  # Every day at 6:00 PM IST
-  # 🔹 Manual trigger
+  # schedule:
+  #   - cron: "30 12 * * *"  # Every day at 6:00 PM IST
+  # # 🔹 Manual trigger
   workflow_dispatch:
 
 jobs:
